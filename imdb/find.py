@@ -15,7 +15,7 @@ def parse_url(url):
 def get_search_url(url):
     return search_query + parse_url(url) + end_search
 
-for i in range(int(config.min_year), int(config.max_year) + 1):
+for i in range(int(config.min_year), int(config.max_year)):
         movie = FSWriter(str(i))
         titles = movie.read_all()
         for title in titles:
