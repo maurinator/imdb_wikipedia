@@ -1,1 +1,4 @@
 get list from wikipedia and summaries + reviews from imdb
+
+Get list of movies from wikipedia based on year...
+Then get movie titles and query into imdb to get summaries and reviews..
